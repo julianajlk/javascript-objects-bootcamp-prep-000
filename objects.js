@@ -5,7 +5,8 @@ var  playlist = {
 
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist['artistName'] = 'strawberry fields'
-};
+  return playlist;
+}
 
 function removeFromPlaylist(playlist, artistName) {
 
