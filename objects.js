@@ -1,12 +1,12 @@
 var  playlist = {
   'hey jude':
-  'lucky you'
+  'yesterday'
 };
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  
-}
+  playlist['artistName'] = 'strawberry fields'
+};
 
 function removeFromPlaylist(playlist, artistName) {
-  
+
 }
